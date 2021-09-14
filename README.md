@@ -1,15 +1,15 @@
 # wordpress-ansible
-## 1. Configurações inicias para dar privilegios especificos no linux
+## - Configurações do linux
 ##### Obs: user é o nome de usuráio do local host, ubuntu é a estação de trabalho.
-#### Acesse o arquivo sudoers:  
+#### Acesse o pasta sudoers:  
 
 >user@ubuntu:~$ sudo visudo
 
-#### Localize *User privilege specification* embaixo e escreva o comando abaixo:
+#### Encontre *User privilege specification*:
 
 user  ALL=(ALL:ALL) NOPASSWD: ALL
 
-## 2. Instalando o SSH:
+## - Instalando o SSH:
 
 >user@ubuntu:~$ sudo apt-get install openssh-server
 
@@ -33,7 +33,7 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 
 >user@ubuntu:~$ cp -p ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
 
-## 3. Instalando o Ansible...
+## - Instalando o Ansible...
 
 #### Crie um repositorio Ansible:
 
@@ -89,7 +89,7 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 >
 >user@ubuntu:~/wordpress-ansible/roles$ ansible-galaxy init wordpress  
 
-## 4. Configurando as Tasks das roles...
+## - Configurando as Tasks das roles...
 
 #### Acesse o caminho abaixo e copie e cole o codigo:
 
@@ -127,7 +127,7 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 
 >user@ubuntu:~/wordpress-ansible/roles/wordpress/handlers$ sudo nano main.yml
 
-## 5. Caso queira salvar um repositorio do seu codigo na GIT, instalando o GitHub...
+## - Caso queira salvar um repositorio do seu codigo na GIT, instalando o GitHub...
 
 #### Instale a GitHub:
 
