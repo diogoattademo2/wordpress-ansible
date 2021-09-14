@@ -1,6 +1,6 @@
 # wordpress-ansible
-## - Configurações do linux
-##### Obs: user é o nome de usuráio do local host, ubuntu é a estação de trabalho.
+## - Configurando o linux
+
 #### Acesse o pasta sudoers:  
 
 >user@ubuntu:~$ sudo visudo
@@ -127,38 +127,4 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 
 >user@ubuntu:~/wordpress-ansible/roles/wordpress/handlers$ sudo nano main.yml
 
-## - Caso queira salvar um repositorio do seu codigo na GIT, instalando o GitHub...
-
-#### Instale a GitHub:
-
->user@ubuntu:~$ sudo apt install git-all
-
-### Criando repositorio GitHub.
-
-#### Clique aqui para criar:
-
-**[Create a new repository](https://github.com/new)**
-
-#### Clique aqui para criar seu token:
-
-**[Generate new token](https://github.com/settings/tokens/new)**
-
-#### Comandos do GitHub:
-
->user@ubuntu:~$ git init  
->
->user@ubuntu:~$ git add .  
->
->user@ubuntu:~$ git commit -m "first commit"  
->
->user@ubuntu:~$ git remote add origin https://github.com/your-username/your-repo-name.git  
->
->user@ubuntu:~$ git push -u origin master  
-
-Enter with your GitHub username:
-
->Username for 'https://github.com': your-username  
-
-Enter with your GitHub personal access token:
-
->Password for 'your-username@github.com': your-token
+## instalação concluida, digite o IP do host no navegador web para acessar a aplicação WordPress.
