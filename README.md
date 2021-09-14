@@ -89,39 +89,39 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 >
 >user@ubuntu:~/wordpress-ansible/roles$ ansible-galaxy init wordpress  
 
-## - Configurando as Tasks das roles...
+## - Tasks das roles
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo server:
 
 >user@ubuntu:~/wordpress-ansible/roles/server/tasks$ sudo nano main.yml
 
 **[Server/Tasks](https://github.com/powblack/ansible---linux/blob/master/roles/server/tasks/main.yml)**  
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo PHP:
 
 **[PHP/Tasks](https://github.com/powblack/ansible---linux/blob/master/roles/php/tasks/main.yml)**
 
 >user@ubuntu:~/wordpress-ansible/roles/php/tasks$ sudo nano main.yml
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo MySQL:
 
 **[MySQL/Tasks](https://github.com/powblack/ansible---linux/blob/master/roles/mysql/tasks/main.yml)**
 
 >user@ubuntu:~/wordpress-ansible/roles/mysql/tasks$ sudo nano main.yml
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo Mysql pasta Default:
 
 **[MySQL/Defaults](https://github.com/powblack/ansible---linux/blob/master/roles/mysql/defaults/main.yml)**
 
 >user@ubuntu:~/wordpress-ansible/roles/mysql/defaults/main.yml
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo Wordpress:
 
 **[Wordpress/Tasks](https://github.com/powblack/ansible---linux/blob/master/roles/wordpress/tasks/main.yml)**
 
 >user@ubuntu:~/wordpress-ansible/roles/wordpress/tasks$ sudo nano main.yml
 
-#### Acesse o caminho abaixo e copie e cole o codigo:
+#### Codigo Wordpress pasta handlers:
 
 **[Wordpress/Handlers](https://github.com/powblack/ansible---linux/blob/master/roles/wordpress/handlers/main.yml)**
 
