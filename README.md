@@ -9,7 +9,9 @@
 
 user  ALL=(ALL:ALL) NOPASSWD: ALL
 
-# -Instalação do SSH:
+# - SSH
+
+## Instalação:
 
 >ansible@ubuntu:~/ sudo apt-get install openssh-server
 
