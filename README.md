@@ -1,5 +1,5 @@
 # wordpress-ansible
-## - Configurando o linux
+# - Configurando o linux
 
 #### Acesse o pasta sudoers:  
 
@@ -9,7 +9,7 @@
 
 user  ALL=(ALL:ALL) NOPASSWD: ALL
 
-## - Instalando o SSH:
+# -Instalação do SSH:
 
 >user@ubuntu:~$ sudo apt-get install openssh-server
 
@@ -33,7 +33,7 @@ user  ALL=(ALL:ALL) NOPASSWD: ALL
 
 >user@ubuntu:~$ cp -p ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
 
-## - Instalando o Ansible...
+# - Instalação do Ansible...
 
 #### Crie um repositorio Ansible:
 
